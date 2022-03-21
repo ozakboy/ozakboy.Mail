@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "nWMc2zq9Z/JfTU1wKUTCToXJx8BOByfRBNgNnQqKOlaafZZb3GZZNJsAht7zkBOGnnz2CU1bH5xQSdKuRfwfZw==",
+  "dgSpecHash": "KjNYAwszDxDeoK9jHzGmCQ9E4sRVHRzoD4NSPylmlmc1IItUcIw+vGWOnRh9lhi80/qtnnI2mkvySw8aqftiwg==",
   "success": true,
   "projectFilePath": "C:\\Users\\WIN\\source\\repos\\Ozakboy\\ozakboy.Mail\\Ozakboy.Mail\\Ozakboy.Mail\\Ozakboy.Mail.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\WIN\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\WIN\\.nuget\\packages\\microsoft.extensions.configuration.binder\\6.0.0\\microsoft.extensions.configuration.binder.6.0.0.nupkg.sha512",
+    "C:\\Users\\WIN\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\WIN\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
