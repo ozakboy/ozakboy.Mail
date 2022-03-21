@@ -5,8 +5,6 @@ VisualStudioVersion = 17.2.32210.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ozakboy.Mail", "Ozakboy.Mail\Ozakboy.Mail.csproj", "{D710727C-5F09-4469-A606-DC4A730E30B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ozakboy.Mail.Test", "Ozakboy.Mail.Test\Ozakboy.Mail.Test.csproj", "{1EA43F4B-7D4F-4172-94C4-C811C3964BFE}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +15,6 @@ Global
 		{D710727C-5F09-4469-A606-DC4A730E30B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D710727C-5F09-4469-A606-DC4A730E30B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D710727C-5F09-4469-A606-DC4A730E30B6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1EA43F4B-7D4F-4172-94C4-C811C3964BFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1EA43F4B-7D4F-4172-94C4-C811C3964BFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1EA43F4B-7D4F-4172-94C4-C811C3964BFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1EA43F4B-7D4F-4172-94C4-C811C3964BFE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
