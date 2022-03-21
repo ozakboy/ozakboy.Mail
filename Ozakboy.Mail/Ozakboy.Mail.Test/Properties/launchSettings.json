@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "Ozakboy.Mail.Test": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:59805;http://localhost:59806"
+    }
+  }
+}
