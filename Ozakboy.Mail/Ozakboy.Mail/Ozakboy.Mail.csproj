@@ -4,6 +4,9 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Authors>ozakboy</Authors>
+    <RepositoryUrl>https://github.com/ozakboy/ozakboy.Mail</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
