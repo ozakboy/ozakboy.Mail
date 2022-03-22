@@ -6,7 +6,7 @@ using System.Net.Mime;
 var builder = new ConfigurationBuilder().SetBasePath(Directory.GetCurrentDirectory()).AddJsonFile("appsettings.json");
 var app = builder.Build();
 
-var Mail = new Mail(app);
+IMail Mail = new Mail(app);
 List<MailInfo> mailInfos = new List<MailInfo>();
 List<MailInfo> CCInfos = new List<MailInfo>();
 List<AttachmentsInfo> AttachmentsInfos = new List<AttachmentsInfo>();

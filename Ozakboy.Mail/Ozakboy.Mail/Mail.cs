@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Ozakboy.Mail
 {
-    public class Mail
+    public class Mail : IMail
     {
         private  VMailSettings _MailSettings;
         public Mail(IConfiguration _configuration)
