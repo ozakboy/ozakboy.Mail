@@ -1,0 +1,12 @@
+C:\Users\WIN\source\repos\Ozakboy\ozakboy.Mail\Ozakboy.Mail\Ozakboy.Mail\bin\Release\net6.0\Ozakboy.Mail.deps.json
+C:\Users\WIN\source\repos\Ozakboy\ozakboy.Mail\Ozakboy.Mail\Ozakboy.Mail\bin\Release\net6.0\Ozakboy.Mail.dll
+C:\Users\WIN\source\repos\Ozakboy\ozakboy.Mail\Ozakboy.Mail\Ozakboy.Mail\bin\Release\net6.0\Ozakboy.Mail.pdb
+C:\Users\WIN\source\repos\Ozakboy\ozakboy.Mail\Ozakboy.Mail\Ozakboy.Mail\obj\Release\net6.0\Ozakboy.Mail.csproj.AssemblyReference.cache
+C:\Users\WIN\source\repos\Ozakboy\ozakboy.Mail\Ozakboy.Mail\Ozakboy.Mail\obj\Release\net6.0\Ozakboy.Mail.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\WIN\source\repos\Ozakboy\ozakboy.Mail\Ozakboy.Mail\Ozakboy.Mail\obj\Release\net6.0\Ozakboy.Mail.AssemblyInfoInputs.cache
+C:\Users\WIN\source\repos\Ozakboy\ozakboy.Mail\Ozakboy.Mail\Ozakboy.Mail\obj\Release\net6.0\Ozakboy.Mail.AssemblyInfo.cs
+C:\Users\WIN\source\repos\Ozakboy\ozakboy.Mail\Ozakboy.Mail\Ozakboy.Mail\obj\Release\net6.0\Ozakboy.Mail.csproj.CoreCompileInputs.cache
+C:\Users\WIN\source\repos\Ozakboy\ozakboy.Mail\Ozakboy.Mail\Ozakboy.Mail\obj\Release\net6.0\Ozakboy.Mail.dll
+C:\Users\WIN\source\repos\Ozakboy\ozakboy.Mail\Ozakboy.Mail\Ozakboy.Mail\obj\Release\net6.0\refint\Ozakboy.Mail.dll
+C:\Users\WIN\source\repos\Ozakboy\ozakboy.Mail\Ozakboy.Mail\Ozakboy.Mail\obj\Release\net6.0\Ozakboy.Mail.pdb
+C:\Users\WIN\source\repos\Ozakboy\ozakboy.Mail\Ozakboy.Mail\Ozakboy.Mail\obj\Release\net6.0\ref\Ozakboy.Mail.dll
