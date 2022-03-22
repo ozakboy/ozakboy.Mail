@@ -16,6 +16,31 @@
   }
 ```
 
+WebApi 註冊元件方式
+
+在 Program.cs 檔案內
+```
+builder.Services.AddScoped<IMail, Mail>();
+```
+
+其他程式註冊元件方式
+```
+var builder = new ConfigurationBuilder().SetBasePath(Directory.GetCurrentDirectory()).AddJsonFile("appsettings.json");
+var app = builder.Build();
+
+IMail Mail = new Mail(app);
+```
+
+>但須安狀另外安裝
+
+Microsoft.Extensions.Configuration
+
+Microsoft.Extensions.Configuration.Binder
+
+Microsoft.Extensions.Configuration.Json
+
+
+
 >Nuget 相依
 
 Microsoft.Extensions.Configuration.Abstractions
