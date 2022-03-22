@@ -2,10 +2,10 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>Ozakboy.Mail</id>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <authors>ozakboy</authors>
     <projectUrl>https://github.com/ozakboy/ozakboy.Mail</projectUrl>
-    <description>Package Description</description>
+    <description>發送Email 專用</description>
     <repository url="https://github.com/ozakboy/ozakboy.Mail" />
     <dependencies>
       <group targetFramework="net6.0">

@@ -7,6 +7,11 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Authors>ozakboy</Authors>
     <RepositoryUrl>https://github.com/ozakboy/ozakboy.Mail</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/ozakboy/ozakboy.Mail</PackageProjectUrl>
+    <AssemblyVersion></AssemblyVersion>
+    <FileVersion></FileVersion>
+    <Description>發送Email 專用</Description>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
