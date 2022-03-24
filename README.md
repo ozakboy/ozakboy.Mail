@@ -54,3 +54,8 @@ Microsoft.Extensions.Configuration.Json
 Microsoft.Extensions.Configuration.Abstractions
 
 Microsoft.Extensions.Configuration.Binder
+
+
+## 可以使用的方法
+
+* SendMail
