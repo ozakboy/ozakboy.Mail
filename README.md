@@ -1,29 +1,33 @@
-# ozakboy.Mail   
+## è¦æ±‚
 
-> ±H«H¥\¯à¾ã¦X¡A§Ö³tµo«H(§tªş¥óÀÉ®×)
+.
 
-­n«Ø¥ß appsettings.json  ÀÉ®×¦b®Ú¥Ø¿ı
+## éƒ¨å±¬
 
-¨Ã³]©w »İ­nªºµo«Hªº©T©w¥\¯à
+> å¯„ä¿¡åŠŸèƒ½æ•´åˆï¼Œå¿«é€Ÿç™¼ä¿¡(å«é™„ä»¶æª”æ¡ˆ)
+
+è¦å»ºç«‹ appsettings.json  æª”æ¡ˆåœ¨æ ¹ç›®éŒ„
+
+ä¸¦è¨­å®š éœ€è¦çš„ç™¼ä¿¡çš„å›ºå®šåŠŸèƒ½
 
 ```
   "SmtpMailConfig": {
     "Port": 25,
-    "Host": "§AªºSMTP HOST",
-    "UserName": "±b¸¹",
-    "Password": "±K½X",
-    "Name": "§Aªº±H«H¦WºÙ"
+    "Host": "ä½ çš„SMTP HOST",
+    "UserName": "å¸³è™Ÿ",
+    "Password": "å¯†ç¢¼",
+    "Name": "ä½ çš„å¯„ä¿¡åç¨±"
   }
 ```
 
-WebApi µù¥U¤¸¥ó¤è¦¡
+WebApi è¨»å†Šå…ƒä»¶æ–¹å¼
 
-¦b Program.cs ÀÉ®×¤º
+åœ¨ Program.cs æª”æ¡ˆå…§
 ```
 builder.Services.AddScoped<IMail, Mail>();
 ```
 
-¨ä¥Lµ{¦¡µù¥U¤¸¥ó¤è¦¡
+å…¶ä»–ç¨‹å¼è¨»å†Šå…ƒä»¶æ–¹å¼
 ```
 var builder = new ConfigurationBuilder().SetBasePath(Directory.GetCurrentDirectory()).AddJsonFile("appsettings.json");
 var app = builder.Build();
@@ -31,7 +35,7 @@ var app = builder.Build();
 IMail Mail = new Mail(app);
 ```
 
->¦ı¶·¦wª¬¥t¥~¦w¸Ë
+>ä½†é ˆå®‰ç‹€å¦å¤–å®‰è£
 
 Microsoft.Extensions.Configuration
 
@@ -41,7 +45,7 @@ Microsoft.Extensions.Configuration.Json
 
 
 
->Nuget ¬Û¨Ì
+>Nuget ç›¸ä¾
 
 Microsoft.Extensions.Configuration.Abstractions
 
