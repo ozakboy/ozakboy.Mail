@@ -1,3 +1,5 @@
+[![nuget](https://img.shields.io/badge/nuget-ozakboy.Mail-blue)](https://www.nuget.org/packages/Ozakboy.Mail/)
+
 ## 要求
 
 ASP.net Core 6
