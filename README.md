@@ -1,4 +1,4 @@
-[![nuget](https://img.shields.io/badge/nuget-ozakboy.Mail-blue)](https://www.nuget.org/packages/Ozakboy.Mail/)
+[![nuget](https://img.shields.io/badge/nuget-ozakboy.Mail-blue)](https://www.nuget.org/packages/Ozakboy.Mail/) [![github](https://img.shields.io/badge/github-ozakboy.Mail-blue)](https://github.com/ozakboy/ozakboy.Mail)
 
 ## 要求
 
