@@ -10,3 +10,6 @@ C:\Users\WIN\source\repos\Ozakboy\ozakboy.Mail\Ozakboy.Mail\Ozakboy.Mail\obj\Rel
 C:\Users\WIN\source\repos\Ozakboy\ozakboy.Mail\Ozakboy.Mail\Ozakboy.Mail\obj\Release\net6.0\refint\Ozakboy.Mail.dll
 C:\Users\WIN\source\repos\Ozakboy\ozakboy.Mail\Ozakboy.Mail\Ozakboy.Mail\obj\Release\net6.0\Ozakboy.Mail.pdb
 C:\Users\WIN\source\repos\Ozakboy\ozakboy.Mail\Ozakboy.Mail\Ozakboy.Mail\obj\Release\net6.0\ref\Ozakboy.Mail.dll
+C:\Users\WIN\source\repos\Ozakboy\ozakboy.Mail\Ozakboy.Mail\Ozakboy.Mail\obj\Release\net6.0\Ozakboy.Mail.sourcelink.json
+C:\Users\WIN\source\repos\Ozakboy\ozakboy.Mail\Ozakboy.Mail\Ozakboy.Mail\bin\Release\net6.0\Ozakboy.Mail.xml
+C:\Users\WIN\source\repos\Ozakboy\ozakboy.Mail\Ozakboy.Mail\Ozakboy.Mail\obj\Release\net6.0\Ozakboy.Mail.xml

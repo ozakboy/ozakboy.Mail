@@ -13,12 +13,13 @@ using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("ozakboy")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
-[assembly: System.Reflection.AssemblyDescriptionAttribute("發送Email 專用")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.1.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.1+995c100a853026e90f0d98dfbbfe4c4ccef0787b")]
+[assembly: System.Reflection.AssemblyCopyrightAttribute("Copyright © ozakboy 2025")]
+[assembly: System.Reflection.AssemblyDescriptionAttribute("簡單易用的 .NET 郵件發送套件，支援 SMTP 協定發送郵件，包含附件功能。支援多位收件者、副本收件者、HTML 格式郵件及 SSL/TLS 加密連線。")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.2.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.2+27839fdad149dd3030537a8a1d6ff96c806448c2")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ozakboy.Mail")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ozakboy.Mail")]
-[assembly: System.Reflection.AssemblyVersionAttribute("1.0.1.0")]
+[assembly: System.Reflection.AssemblyVersionAttribute("1.0.2.0")]
 [assembly: System.Reflection.AssemblyMetadataAttribute("RepositoryUrl", "https://github.com/ozakboy/ozakboy.Mail")]
 
 // 由 MSBuild WriteCodeFragment 類別產生。

@@ -1,19 +1,53 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <!-- 目標框架 -->
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Authors>ozakboy</Authors>
-    <RepositoryUrl>https://github.com/ozakboy/ozakboy.Mail</RepositoryUrl>
-    <PackageProjectUrl>https://github.com/ozakboy/ozakboy.Mail</PackageProjectUrl>
-    <AssemblyVersion></AssemblyVersion>
-    <FileVersion></FileVersion>
-    <Description>發送Email 專用</Description>
+
+    <!-- 套件基本資訊 -->
+    <PackageId>Ozakboy.Mail</PackageId>
     <Version>1.0.2</Version>
+    <Authors>ozakboy</Authors>
+    <Company>ozakboy</Company>
+    <Product>Ozakboy.Mail</Product>
+    <Description>簡單易用的 .NET 郵件發送套件，支援 SMTP 協定發送郵件，包含附件功能。支援多位收件者、副本收件者、HTML 格式郵件及 SSL/TLS 加密連線。</Description>
+    <Copyright>Copyright © ozakboy 2025</Copyright>
+
+    <!-- 套件詳細資訊 -->
+    <PackageTags>email;mail;smtp;send-mail;email-sender;gmail;outlook;dotnet;csharp</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/ozakboy/ozakboy.Mail</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/ozakboy/ozakboy.Mail</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+
+    <!-- 版本資訊 -->
+    <AssemblyVersion>1.0.2.0</AssemblyVersion>
+    <FileVersion>1.0.2.0</FileVersion>
+    <PackageReleaseNotes>
+v1.0.2 (2025-12-24)
+- 修正副本收件者 (CC) 錯誤使用 Bcc 的問題
+- 修正 VMailSettings 類別存取修飾詞問題
+- 新增 SMTP 設定和附件的 null 檢查
+- 改善錯誤訊息提示
+- 移除所有 nullable 警告
+- 更新文件說明
+    </PackageReleaseNotes>
+
+    <!-- 建置設定 -->
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);1591</NoWarn>
   </PropertyGroup>
 
+  <!-- 將 README.md 打包到 NuGet -->
+  <ItemGroup>
+    <None Include="..\..\..\ozakboy.Mail\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+  <!-- NuGet 相依套件 -->
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="6.0.0" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="6.0.0" />
