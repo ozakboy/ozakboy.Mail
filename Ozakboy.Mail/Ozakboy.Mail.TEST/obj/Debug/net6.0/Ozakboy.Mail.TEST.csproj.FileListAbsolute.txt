@@ -24,5 +24,6 @@ C:\Users\WIN\source\repos\Ozakboy\ozakboy.Mail\Ozakboy.Mail\Ozakboy.Mail.TEST\bi
 C:\Users\WIN\source\repos\Ozakboy\ozakboy.Mail\Ozakboy.Mail\Ozakboy.Mail.TEST\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
 C:\Users\WIN\source\repos\Ozakboy\ozakboy.Mail\Ozakboy.Mail\Ozakboy.Mail.TEST\bin\Debug\net6.0\Ozakboy.Mail.dll
 C:\Users\WIN\source\repos\Ozakboy\ozakboy.Mail\Ozakboy.Mail\Ozakboy.Mail.TEST\bin\Debug\net6.0\Ozakboy.Mail.pdb
-C:\Users\WIN\source\repos\Ozakboy\ozakboy.Mail\Ozakboy.Mail\Ozakboy.Mail.TEST\obj\Debug\net6.0\Ozakboy.Mail.TEST.csproj.CopyComplete
 C:\Users\WIN\source\repos\Ozakboy\ozakboy.Mail\Ozakboy.Mail\Ozakboy.Mail.TEST\bin\Debug\net6.0\appsettings.json
+C:\Users\WIN\source\repos\Ozakboy\ozakboy.Mail\Ozakboy.Mail\Ozakboy.Mail.TEST\obj\Debug\net6.0\Ozakboy.Mail.TEST.sourcelink.json
+C:\Users\WIN\source\repos\Ozakboy\ozakboy.Mail\Ozakboy.Mail\Ozakboy.Mail.TEST\obj\Debug\net6.0\Ozakboy..634BDF17.Up2Date

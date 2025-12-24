@@ -11,7 +11,7 @@
           "Microsoft.Extensions.Configuration": "6.0.1",
           "Microsoft.Extensions.Configuration.Binder": "6.0.0",
           "Microsoft.Extensions.Configuration.Json": "6.0.0",
-          "Ozakboy.Mail": "1.0.0"
+          "Ozakboy.Mail": "1.0.2"
         },
         "runtime": {
           "Ozakboy.Mail.TEST.dll": {}
@@ -136,13 +136,16 @@
           "System.Text.Encodings.Web": "6.0.0"
         }
       },
-      "Ozakboy.Mail/1.0.0": {
+      "Ozakboy.Mail/1.0.2": {
         "dependencies": {
           "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
           "Microsoft.Extensions.Configuration.Binder": "6.0.0"
         },
         "runtime": {
-          "Ozakboy.Mail.dll": {}
+          "Ozakboy.Mail.dll": {
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
+          }
         }
       }
     }
@@ -237,7 +240,7 @@
       "path": "system.text.json/6.0.0",
       "hashPath": "system.text.json.6.0.0.nupkg.sha512"
     },
-    "Ozakboy.Mail/1.0.0": {
+    "Ozakboy.Mail/1.0.2": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

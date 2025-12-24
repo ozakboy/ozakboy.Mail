@@ -15,16 +15,16 @@ namespace Ozakboy.Mail
         /// <summary>
         /// 檔案內容
         /// </summary>
-        public Stream FileStream { get; set; }
+        public Stream? FileStream { get; set; }
 
         /// <summary>
         /// 檔案名稱
         /// </summary>
-        public string FileName { get; set; }
+        public string FileName { get; set; } = string.Empty;
 
         /// <summary>
         /// 檔案類型
         /// </summary>
-        public string FileType { get; set; }
+        public string FileType { get; set; } = string.Empty;
     }
 }

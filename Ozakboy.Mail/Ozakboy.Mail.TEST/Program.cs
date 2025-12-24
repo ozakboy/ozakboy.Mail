@@ -10,8 +10,8 @@ IMail Mail = new Mail(app);
 List<MailInfo> mailInfos = new List<MailInfo>();
 List<MailInfo> CCInfos = new List<MailInfo>();
 List<AttachmentsInfo> AttachmentsInfos = new List<AttachmentsInfo>();
-mailInfos.Add(new MailInfo("你的信箱"));
-CCInfos.Add(new MailInfo("你的信箱"));
+mailInfos.Add(new MailInfo("awc0450056@gmail.com"));
+CCInfos.Add(new MailInfo("awc0450056@gmail.com"));
 
 FileStream fileStream = new FileStream(AppDomain.CurrentDomain.BaseDirectory + "appsettings.json", FileMode.Open);
 AttachmentsInfos.Add(new AttachmentsInfo

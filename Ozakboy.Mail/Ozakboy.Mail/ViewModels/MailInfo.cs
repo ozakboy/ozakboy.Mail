@@ -26,7 +26,7 @@ namespace Ozakboy.Mail
         /// <summary>
         /// 收件人位置
         /// </summary>
-        public string Address { get; set; }
+        public string Address { get; set; } = string.Empty;
 
         /// <summary>
         /// 收件者名稱  可以不給

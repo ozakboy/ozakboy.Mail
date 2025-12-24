@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "ouWPiqMWyz294yNb0XQothQNVWn6gPBUpO0QVN94n4I=",
+  "Hash": "iQ2iIiA1KgjC2Bkwv1XnUyvrv6u9MHTY6p5SFYdjySQ=",
   "Source": "Ozakboy.Mail.WebApiTest",
   "BasePath": "_content/Ozakboy.Mail.WebApiTest",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

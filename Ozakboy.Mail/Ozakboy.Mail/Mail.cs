@@ -21,6 +21,10 @@ namespace Ozakboy.Mail
         public void SendMail(List<MailInfo> ReceiveInfos, List<MailInfo> CCInfos, List<AttachmentsInfo> AttachmentsInfos, string MailSubject, string MailBody, bool IsBodyHtml = true)
         {
              var Smtp =  _MailSettings.SmtpMailConfig;
+            if (Smtp == null)
+            {
+                throw new InvalidOperationException("SMTP 設定未正確配置");
+            }
 
             using var SmtpClientInfo = new SmtpClient(Smtp.Host, Smtp.Port);
             var FromMailAddress = new MailAddress(Smtp.UserName, Smtp.Name);
@@ -56,7 +60,7 @@ namespace Ozakboy.Mail
             {
                 foreach (var item in CCInfos)
                 {
-                    MailMessage.Bcc.Add(new MailAddress(item.Address, item.Name));
+                    MailMessage.CC.Add(new MailAddress(item.Address, item.Name));
                 }
             }
 
@@ -65,11 +69,28 @@ namespace Ozakboy.Mail
             {
                 foreach (var item in AttachmentsInfos)
                 {
-                    MailMessage.Attachments.Add(new Attachment(item.FileStream, item.FileName, item.FileType));
+                    if (item.FileStream != null)
+                    {
+                        MailMessage.Attachments.Add(new Attachment(item.FileStream, item.FileName, item.FileType));
+                    }
                 }
             }
 
-            SmtpClientInfo.Send(MailMessage);
+            try
+            {
+                SmtpClientInfo.Send(MailMessage);
+            }
+            catch (SmtpException ex)
+            {
+                throw new InvalidOperationException(
+                    $"郵件發送失敗。請檢查：\n" +
+                    $"1. 網路連線是否正常\n" +
+                    $"2. SMTP 設定是否正確 (Host: {Smtp.Host}, Port: {Smtp.Port})\n" +
+                    $"3. 防火牆是否允許 Port {Smtp.Port} 的對外連線\n" +
+                    $"4. 帳號密碼是否正確\n" +
+                    $"詳細錯誤：{ex.Message}",
+                    ex);
+            }
 
             if (MailMessage.Attachments != null)
             {

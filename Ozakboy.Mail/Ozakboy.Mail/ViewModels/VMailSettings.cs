@@ -6,20 +6,20 @@ using System.Threading.Tasks;
 
 namespace Ozakboy.Mail.ViewModels
 {
-    internal class VMailSettings
+    public class VMailSettings
     {
         /// <summary>
         /// 郵件SMTP 設定
         /// </summary>
-        public VSmtpMailConfig SmtpMailConfig { get; set; }
+        public VSmtpMailConfig? SmtpMailConfig { get; set; }
     }
 
-    internal class VSmtpMailConfig
+    public class VSmtpMailConfig
     {
         /// <summary>
         /// 連線的Host
         /// </summary>
-        public string Host { get; set; }
+        public string Host { get; set; } = string.Empty;
 
 
         /// <summary>
@@ -30,16 +30,16 @@ namespace Ozakboy.Mail.ViewModels
         /// <summary>
         /// 帳號
         /// </summary>
-        public string UserName { get; set; }
+        public string UserName { get; set; } = string.Empty;
 
         /// <summary>
         /// 密碼
         /// </summary>
-        public string Password { get; set; }
+        public string Password { get; set; } = string.Empty;
 
         /// <summary>
         /// 寄件者名稱
         /// </summary>
-        public string Name { get; set; }
+        public string Name { get; set; } = string.Empty;
     }
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ozakboy.Mail.TEST")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2cd79147c7660737edeb81cf7325c22476a02b8d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ozakboy.Mail.TEST")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ozakboy.Mail.TEST")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

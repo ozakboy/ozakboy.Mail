@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "Ozakboy.Mail.WebApiTest/1.0.0": {
         "dependencies": {
-          "Ozakboy.Mail": "1.0.0",
+          "Ozakboy.Mail": "1.0.2",
           "Swashbuckle.AspNetCore": "6.2.3"
         },
         "runtime": {
@@ -78,13 +78,16 @@
         }
       },
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
-      "Ozakboy.Mail/1.0.0": {
+      "Ozakboy.Mail/1.0.2": {
         "dependencies": {
           "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
           "Microsoft.Extensions.Configuration.Binder": "6.0.0"
         },
         "runtime": {
-          "Ozakboy.Mail.dll": {}
+          "Ozakboy.Mail.dll": {
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
+          }
         }
       }
     }
@@ -165,7 +168,7 @@
       "path": "system.runtime.compilerservices.unsafe/6.0.0",
       "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
     },
-    "Ozakboy.Mail/1.0.0": {
+    "Ozakboy.Mail/1.0.2": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

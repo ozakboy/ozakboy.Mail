@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("發送Email 專用")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.1.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.1+995c100a853026e90f0d98dfbbfe4c4ccef0787b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ozakboy.Mail")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ozakboy.Mail")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.1.0")]
